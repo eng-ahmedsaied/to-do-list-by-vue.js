@@ -1,38 +1,4 @@
-<template>
-  <div id="app">
-    <Task v-bind:tasks="tasks" />
-  </div>
-</template>
-
-<script>
-import Task from "./components/Task.vue"; 
-
-export default {
-  name: "App",
-  components: {
-    Task,
-  },
-  data() {
-    return {
-      tasks: [
-        { id: 1, title: "learn vue js", completed: true },
-        { id: 2, title: "watch netflix", completed: true },
-        { id: 3, title: "go shopping", completed: true }, 
-        { id: 4, title: "learn guitar", completed: true }, 
-        { id: 5, title: "making beats", completed: false }, 
-
-      ],
-    };
-  },
-};
-</script>
-
-
-
-
-
-<style lang="scss">
-
+/* 
 .toggle {
     background-color: #f9f9f9;
     border: none;
@@ -144,5 +110,4 @@ body {
   color: #333;
 }
 
-  
-</style>
+   */
